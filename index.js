@@ -20,8 +20,8 @@ console.log(sayHello('Rex'));
 
 const todos = [
   { title: 'Buy Bread', isDone: true },
-  { title: 'Talk to Monika', isDone: true },
-  { title: 'Again talk to her', isDone: false },
+  { title: 'Read a book', isDone: true },
+  { title: 'Read another book', isDone: false },
 ];
 
 const thingsDone = todos.filter((element) => element.isDone == true);
@@ -31,8 +31,8 @@ console.log(thingsDone);
 
 const extraTodos = [
   { title: 'Buy Bread', isDone: true },
-  { title: 'Talk to Monika', isDone: true },
-  { title: 'Again talk to her', isDone: true },
+  { title: 'Read a book', isDone: true },
+  { title: 'Read another book', isDone: false },
   { title: 'Do gym', isDone: false },
   { title: 'Play batminton', isDone: false },
   { title: 'Play cod', isDone: false },
